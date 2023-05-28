@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943894bb-8af7-42bf-914e-4f2eee3b6805" name="Changes" comment="Adicionando uploads de Imagens." />
+    <list default="true" id="943894bb-8af7-42bf-914e-4f2eee3b6805" name="Changes" comment="Adicionando uploads de Imagens.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sobre.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Pichau/Documents/Projetos/Aprendex/Aprendex/Aprendex/Aprendex",
+    "last_opened_file_path": "C:/Users/Pichau/Desktop/New folder/AprendexDeploy",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -112,6 +115,7 @@
       <workItem from="1685280778080" duration="16574000" />
       <workItem from="1685298655633" duration="23000" />
       <workItem from="1685308916787" duration="83000" />
+      <workItem from="1685309754738" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de services do usuario">
       <created>1684547659459</created>
