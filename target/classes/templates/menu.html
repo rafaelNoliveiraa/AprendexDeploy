@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav th:fragment="menu" class="FixoNoTopo">
+  <img th:src="@{/imagem/logo01.png}" alt="Logo" class="logo">
+  <p th:if="${session.usuarioLogado!=null}" th:text="'Olá, ' + ${session.usuarioLogado.getNome()}" class="nome-usuario"></p>
+  <ul class="menu">
+    <li ><a th:href="@{/}">Home</a></li>
+    <li ><a th:href="@{/cursos}">Cursos</a></li>
+    <li th:if="${session.usuarioLogado==null}"><a th:href="@{/login}">Login</a></li>
+    <li th:if="${session.usuarioLogado==null}"><a th:href="@{/cadastrar}">Cadastre-se</a></li>
+    <li th:if="${session.usuarioLogado!=null}"><a th:href="@{/dadospessoais}">Dados Pessoais</a></li>
+    <li th:if="${session.usuarioLogado!=null}"><a th:href="@{/favoritos}">Meus favoritos</a></li>
+    <li ><a th:href="@{/sobre}">Sobre</a></li>
+    <li th:if="${session.usuarioLogado!=null && session.usuarioLogado.getTipo()==1}"><a th:href="@{/cadastro-cursos}">Cadastre seu Curso</a></li>
+    <li th:if="${session.usuarioLogado!=null}"><a th:href="@{/sair}"><button type="submit"  class="botao-sair" ><i class="fas fa-sign-out-alt"></i> Sair</button></a></li>
+  </ul>
+  <main>
+    <form th:action="@{/buscar}" method="post">
+    <div class="SearchBox active">
+      <input type="text" id="buscar" class="SearchBox-input" name="buscar" placeholder="Procure seu curso" >
+      <button  id="busca" type="submit" class="SearchBox-button" style="text-decoration: none">
+        <i class="SearchBox-icon  material-icons">search</i>
+      </button>
+    </div></form>
+  </main>
+</nav>
+</body>
+</html>

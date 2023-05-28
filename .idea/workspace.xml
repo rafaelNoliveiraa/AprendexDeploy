@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="943894bb-8af7-42bf-914e-4f2eee3b6805" name="Changes" comment="Adicionando uploads de Imagens." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q1waVUJ4LYtGPbCPe2QQouU1xf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Pichau/Documents/Projetos/Aprendex/Aprendex/Aprendex/Aprendex",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.14942528",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "6241bcf70027cd4680ed494f460322de",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\Documents\Projetos\Aprendex\Aprendex\Aprendex\src\main\resources\static\css" />
+      <recent name="C:\Users\PICHAU\Desktop\projeto Aprendex\Aprendex\Aprendex\src\main\resources\templates" />
+      <recent name="C:\Users\PICHAU\Desktop\projeto Aprendex\Aprendex\Aprendex\src\main\resources\static\css" />
+      <recent name="C:\Users\PICHAU\Desktop\projeto Aprendex\Aprendex\Aprendex\src\main\resources\static\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AprendexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Aprendex" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.Aprendex.AprendexApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aprendex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AprendexApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="943894bb-8af7-42bf-914e-4f2eee3b6805" name="Changes" comment="" />
+      <created>1684534464232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684534464232</updated>
+      <workItem from="1684534465811" duration="13592000" />
+      <workItem from="1684593439711" duration="6814000" />
+      <workItem from="1684604374561" duration="1036000" />
+      <workItem from="1684679259514" duration="4316000" />
+      <workItem from="1684699116722" duration="6367000" />
+      <workItem from="1684796306443" duration="4721000" />
+      <workItem from="1685048283792" duration="4258000" />
+      <workItem from="1685053688731" duration="10165000" />
+      <workItem from="1685063898657" duration="276000" />
+      <workItem from="1685064212852" duration="50000" />
+      <workItem from="1685113936194" duration="12432000" />
+      <workItem from="1685163642994" duration="75000" />
+      <workItem from="1685195739409" duration="4699000" />
+      <workItem from="1685205155431" duration="11979000" />
+      <workItem from="1685217383800" duration="334000" />
+      <workItem from="1685235992718" duration="1557000" />
+      <workItem from="1685280778080" duration="16574000" />
+      <workItem from="1685298655633" duration="23000" />
+      <workItem from="1685308916787" duration="83000" />
+    </task>
+    <task id="LOCAL-00001" summary="Criação de services do usuario">
+      <created>1684547659459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684547659459</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Criação de services do usuario">
+      <created>1684547921584</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684547921584</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Criação de CursoService e seus metódos">
+      <created>1684599525186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684599525186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adicionando atributos na classe cursos e alteranção do FrontEnd">
+      <created>1684683676410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684683676410</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Arrumando o login">
+      <created>1684800591273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684800591273</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adicionado sair da sessão e cursos em destaque">
+      <created>1685125903158</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685125903158</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fodase">
+      <created>1685152064937</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685152064937</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Alterações front end">
+      <created>1685205236152</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685205236152</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Alterações front end">
+      <created>1685206310057</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685206310057</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finalizando as ultimas funcionalidades.">
+      <created>1685217072965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685217072965</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Finalizando as ultimas funcionalidades.">
+      <created>1685217094123</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685217094123</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tratando Erros.">
+      <created>1685286001501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685286001501</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tratando Erros.">
+      <created>1685286162922</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685286162922</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adicionando uploads de Imagens.">
+      <created>1685288870765</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685288870765</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adicionando uploads de Imagens.">
+      <created>1685288881686</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685288881686</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adicionando uploads de Imagens.">
+      <created>1685288900071</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685288900071</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b413e92d-59da-4e15-bc1e-ae6dfd721239" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="b413e92d-59da-4e15-bc1e-ae6dfd721239">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Pichau/Documents/Projetos/Aprendex/Aprendex/Aprendex" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criação de services do usuario" />
+    <MESSAGE value="Criação de CursoService e seus metódos" />
+    <MESSAGE value="Adicionando atributos na classe cursos e alteranção do FrontEnd" />
+    <MESSAGE value="Arrumando o login" />
+    <MESSAGE value="adicionado sair da sessão e cursos em destaque" />
+    <MESSAGE value="fodase" />
+    <MESSAGE value="Alterações front end" />
+    <MESSAGE value="Finalizando as ultimas funcionalidades." />
+    <MESSAGE value="Tratando Erros." />
+    <MESSAGE value="Adicionando uploads de Imagens." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando uploads de Imagens." />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.project.Aprendex.service.CursoServiceImpl" memberName="root" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

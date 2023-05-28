@@ -1,0 +1,71 @@
+.carousel-container {
+    width: 60%; /* Reduzindo a largura do container */
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px; /* Reduzindo o raio do border-radius */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Reduzindo a intensidade da sombra */
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    padding: 20px; /* Diminuindo o espaçamento interno */
+    text-align: center;
+  }
+  
+  .carousel-item h2 {
+    font-size: 18px; /* Diminuindo o tamanho da fonte */
+    color: #333;
+    margin-bottom: 15px; /* Diminuindo a margem inferior */
+  }
+  
+  .carousel-item p {
+    font-size: 16px; /* Diminuindo o tamanho da fonte */
+    color: #777;
+    margin-bottom: 10px; /* Diminuindo a margem inferior */
+  }
+  
+  .carousel-item .btn-orange {
+    display: inline-block;
+    background-color: #171a21;
+    color: #fff;
+    padding: 10px 20px; /* Diminuindo o tamanho do padding */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px; /* Diminuindo o tamanho da fonte */
+    transition: background-color 0.3s;
+    position: relative; /* Adicione essa linha */
+    z-index: 1;
+  }
+  
+  .carousel-item .btn-orange:hover {
+    background-color: #171a21;
+  }
+  
+  .slick-dots {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Diminuindo a margem superior */
+    list-style: none;
+  }
+  
+  .slick-dots li {
+    margin: 0 3px; /* Diminuindo a margem horizontal */
+  }
+  
+  .slick-dots li button {
+    display: block;
+    width: 10px; /* Diminuindo a largura */
+    height: 10px; /* Diminuindo a altura */
+    border-radius: 50%;
+    border: none;
+    background-color: #bbb;
+    text-indent: -9999px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .slick-dots li button:hover,
+  .slick-dots li.slick-active button {
+    background-color: #171a21;
+  }

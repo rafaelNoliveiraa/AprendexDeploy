@@ -1,0 +1,77 @@
+
+.titulos{
+    font-family: Candara;
+    font-size: 30px;
+    color: #09356F;
+}
+
+.missao{
+    font-family: Candara;
+    font-size: 30px;
+    color: #09356F;
+    margin-left: 50px; /*cuidado com isso aqui, estava dando erro*/
+    text-align: center;
+}
+
+.imgbonecos{
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px; /* opcional, para adicionar um espaço entre a imagem e o texto */
+    width: 300px;
+    height: 300px;
+  }
+
+.imgconfig{
+    float: right;
+    margin-top: 45px ;
+    margin-left: 10px; /* opcional, para adicionar um espaço entre a imagem e o texto */
+    width: 220px;
+    height: 180px;
+  }
+.imgmvv{
+    text-align: center;
+    margin-left: 200px; /* opcional, para adicionar um espaço entre a imagem e o texto */
+    width: 650px;
+    height: 650px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+    
+/*Misão, Visão e Valores- começo*/
+.mvv{
+    color:white;
+}
+    .container .box { 
+        width:800px; 
+        display:table; 
+    } 
+    .container .box .box-row { 
+        display:table-row; 
+    } 
+    .container .box .box-cell { 
+        display:table-cell; 
+        width:33%; 
+        padding:10px; 
+    } 
+    .container .box .box-cell.box1 { 
+        background: #09356F; 
+        color:#FFA50C; 
+        text-align:center; 
+    } 
+    .container .box .box-cell.box2 { 
+        background:#3990c2; 
+        color:#FFA50C;
+        text-align:center; 
+    } 
+    .container .box .box-cell.box3 { 
+        background:#09356F; 
+        color:#FFA50C;
+        text-align:center; 
+    }
+/*Misão, Visão e Valores- fim*/

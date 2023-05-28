@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" th:href="@{/imagem/favicon-32x32.png}" type="image/x-icon">
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" th:href="@{/css/carrosel.css}">
+    <script th:src="@{/js/carrosel.js}"></script>
+    <script th:src="@{/js/menufixo.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/wave.css}">
+    <link rel="stylesheet" th:href="@{/css/UsuarioFav.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Home</title>
+  </head>
+  <body>
+  <nav th:replace="~{menu::menu}" >
+  </nav>
+    <br>
+    <div class="container">
+     <br>
+     <br>
+    <img th:src="@{/imagem/icone.png}" alt="Formatura" class="formatura">
+     <br>
+     <h1 class="bemvindo">OLÁ, SEJA BEM-VINDO(A) AO APRENDEX</h1>
+     <h1 class="frase">Sua plataforma onde contém todos os cursos disponíveis em Diadema </h1>
+     <br>
+     <header>
+      <a th:href="@{/cadastrar}" class="btn-2">Inscreva-se</a>
+      <a th:href="@{/cursos}" class="btn-2">Explore os Cursos</a>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="sobre-nos">
+      <p class="textdestaq">
+        TEMOS O PRAZER DE APRESENTAR UMA SOLUÇÃO QUE VISA FACILITAR E AGILIZAR A SUA BUSCA POR CONHECIMENTO NA REGIÃO!
+      </p>
+      <p class="texto2">
+      Reunimos, cuidadosamente, todos os cursos gratuitos e os melhores cursos disponíveis, a fim de fornecer uma plataforma abrangente para atender às suas necessidades educacionais.
+      Acreditamos que o acesso à informação é essencial para o crescimento pessoal e profissional, e é por isso que nos dedicamos a oferecer uma seleção diversificada e atualizada de cursos
+      Esperamos que essa compilação seja um recurso valioso para impulsionar a sua jornada de conhecimento.
+      Abaixo, destacamos uma lista dos cursos mais procurados em nosso site, que têm despertado grande interesse entre os usuários em busca de aprendizado e desenvolvimento de habilidades.</p>
+    </section>
+    <br>
+    <h1 class="alta"> CURSOS EM ALTA </h1>
+    <div class="carousel-container">
+      <div id="tab0" class="tab-content">
+
+        <div th:each="curso,interador : ${listaCurso}"  th:if="${interador.index<3}" class="carousel-item">
+          <h2 th:text="${curso.nome}"></h2>
+          <p th:text="${curso.descricao}"></p>
+          <p th:text="'Instituição: ' + ${curso.instituicao}"></p>
+          <a th:href="${curso.link}" target='_blank' class="btn-orange">Inscreva-se</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <hr>
+  </div>
+    </div>
+  <footer  th:replace="~{rodape::rodape}">
+  </footer>>
+  </body>
+</html>

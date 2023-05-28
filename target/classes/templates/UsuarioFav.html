@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" th:href="@{/imagem/favicon-32x32.png}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+    <link rel="stylesheet" th:href="@{/css/UsuarioFav.css}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script th:src="@{/js/UsuarioFav.js}"></script>
+    <title>Meus Favoritos</title>
+</head>
+<nav th:replace="~{menu::menu}" >
+</nav>
+    <br>
+<body>
+    <br>
+    <br>
+    <div class="container" style="margin: auto">
+        <div th:each="favoritos : ${session.usuarioLogado.cursoFavorito}" class="cursos">
+            <img th:src="@{${'/Imagem/uploads/'+favoritos.img}}" style="width: 427px; height: 427px;" alt="Curso Favoritado">
+          <div class="cursofav">
+              <form th:action="@{/desfavoritar}" method="post">
+            <h3 th:text="${favoritos.nome}" class="nomecurso">Curso xxx</h3>
+            <p th:text="${favoritos.instituicao}" class="nome-inst">Instituição yyyyy</p>
+            <p th:text="${favoritos.descricao}" class="desc-curso">Mini Descrição</p>
+                  <input id="cursoID" name="cursoID" th:value="${favoritos.id}" style="visibility: hidden">
+                  <input id="usuarioID" name="usuarioID" th:value="${session.usuarioLogado.id}" style="visibility: hidden">
+                  <input type="submit" class="btnexcluir" value="Excluir">
+              </form>
+          </div>
+        </div>
+
+</body>
+</html>

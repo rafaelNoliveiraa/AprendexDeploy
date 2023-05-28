@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" th:href="@{/css/style2.css}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" th:href="@{/imagem/favicon-32x32.png}" type="image/x-icon">
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+    <link rel="stylesheet" th:href="@{/css/UsuarioFav.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Cadastro Curso</title>
+</head>
+<body>
+<nav th:replace="~{menu::menu}" >
+</nav>
+    <br>
+    <div class="container">
+     <br>
+     <br>
+        <form class="login" th:action="@{/curso-cadastrado}" method="post">
+            <h2>Cadastre o Curso</h2>
+            <div class="box-user">
+                <input type="text" name="nome" id="nome" required>
+                <label>Nome do Curso</label>
+            </div>
+            <div class="checkbox">
+                <legend>Categoria</legend><br>
+                <input type="radio" name="categoria" id="categoria1" value="Presencial"  required>
+                <label for="categoria1">Presencial</label><br>
+                <input type="radio" name="categoria" id="categoria2" value="EAD (Estudo à Distância)" required>
+                <label for="categoria2">EAD (Estudo à Distância)</label><br>
+                <input type="radio" name="categoria" id="categoria3" value="Aulas Híbridas" required>
+                <label for="categoria3">Aulas Híbridas</label>
+            </div>
+            <br>
+            <div class="box-user">
+                <input type="number" name="duracao" id="duracao" required>
+                <label>Duração do Curso (por semestre)</label>
+            </div>
+            <div class="box-user">
+                <input type="text" name="descricao" id="descricao" required>
+                <label>Descrição</label>
+            </div>
+            <div class="box-user">
+                <input type="text" name="link" id="link" required>
+                <label>Link</label>
+            </div>
+            <div class="box-user">
+                <input type="text" name="endereco" id="endereco" required>
+                <label>Endereço</label>
+            </div>
+            <div class="box-user">
+                <input type="text" name="instituicao" id="instituicao" required>
+                <label>Instituição</label>
+            </div>
+            <div class="box-user">
+                <input type="text" name="valor" id="valor" required>
+                <label>Valor</label>
+            </div>
+            <div class="box-user">
+                <input type="text" name="telefone" id="telefone" required>
+                <label>Telefone para Contato</label>
+            </div>
+            <div class="box-user">
+                <input type="text" name="email" id="email" required>
+                <label>E-Mail Para Contato </label>
+            </div>
+            <div class="box-user">
+                <input type="file" name="img" id="img" accept="image/png, image/jpeg" required>
+            </div>
+            <button th:href="@{/}" type="submit" class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Cadastrar
+            </button>
+        </form>
+        </div>
+</body>
+</html>

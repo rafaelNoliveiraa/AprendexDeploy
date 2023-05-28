@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>rodape</title>
+</head>
+<body>
+<footer th:fragment="rodape" class="site-footer">
+  <div class="col-sm-12 col-md-6">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6 id="sobre">Sobre </h6>
+        <p class="text-justify">Está plataforma busca facilitar o acesso a cursos gratuitos em Diadema, oferecendo uma experiência prática e eficiente para nossos usuários. Junte-se a nós e comece já a investir em seu futuro com a educação gratuita e de qualidade que oferecemos!</p>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <h6>Links rápidos</h6>
+          <div class="footer-links">
+            <p><a th:href="@{/}">Home</a></p>
+            <p><a th:href="@{/cursos}">Cursos</a></p>
+            <p><a th:href="@{/login}">Login</a></p>
+            <p><a th:href="@{/cadastrar}">Cadastro</a></p>
+            <p><a th:href="@{/sobre}">Sobre nós</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <ul class="social-icons">
+        <li><a class="instragram" href="#"><img th:src="@{/imagem/icons8-instagram-50.png}" alt="Instragram"></a></li>
+        <li><a class="twitter" href="#"><img th:src="@{/imagem/twitter.png}" alt="Twitter"></a></li>
+        <li><a class="internet" href="#"><img th:src="@{/imagem/internet.png}" alt="Internet"></a></li>
+        <li><a class="mensagem" href="#"><img th:src="@{/imagem/icons8-mensagem-50.png}" alt="Mensagem"></a></li>
+        <li><a class="telefone" href="#"><img th:src="@{/imagem/icons8-telefone-50.png}" alt="Telefone"></a></li>
+      </ul>
+    </div>
+
+  </div>
+  </div>
+</footer>
+</body>
+</html>

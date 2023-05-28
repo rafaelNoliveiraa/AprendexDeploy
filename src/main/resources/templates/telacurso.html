@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <title>Página de Busca</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+      <link rel="stylesheet" th:href="@{/css/cursos.css}">
+      <link rel="stylesheet" th:href="@{/css/UsuarioFav.css}">
+      <script th:src="@{/js/UsuarioFav.js}"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="http:/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script>
+    $( function() {
+      $( "#tabs" ).tabs();
+    } );
+    </script>
+  </head>
+  <body>
+  <nav th:replace="~{menu::menu}" >  </nav>
+  <br>
+    <h1 class="telacurso"> Todos dos Cursos </h1>
+    <form th:action="@{/cursos}" method="post">
+    <div id="tabs" >
+        <ul>
+            <li  class="lis" th:each="categor : ${listaCategoria}">
+                <input id="categoria" name="categoria" type="submit" href="#tabs-1" th:value="${categor.toString()}">
+            </li>
+        </ul>
+        </div>
+        </form>
+        <div  id="tabs-1">
+            <div id="tab0" class="tab-content" >
+                <div  th:each="curso:${listaCurso}"  class="planColumn">
+                    <form th:action="@{/favoritar}" method="post">
+                    <h2 th:text="${curso.nome}" ></h2>
+                    <div th:text="${curso.descricao}" class="planOptionDetailText"></div>
+                    <div th:text="${'Intituição: '+curso.instituicao}" class="planOptionDetailText"></div>
+                    <div class="planSignup"><button href="#" class="btn-orange" style="text-align: center; margin: auto"><a th:href="${curso.link}" style="text-decoration: none; color: white; font-family: Candara" target="_blank">Inscreva-se</a></button></div>
+                        <div class="btnfav">
+                        <i th:if="${session.usuarioLogado !=  null}" class="fas fa-heart"></i>
+                    <input th:if="${session.usuarioLogado !=  null}" style="cursor: pointer" type="submit" value="Favoritar">
+                    <input id="cursoID" name="cursoID" th:value="${curso.id}" class="favorite-button" style="visibility: hidden" >
+                    <input th:if="${session.usuarioLogado !=  null}" id="usuarioID" name="usuarioID" th:value="${session.usuarioLogado.id}" style="visibility: hidden">
+                    </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>

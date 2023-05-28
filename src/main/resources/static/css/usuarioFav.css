@@ -1,0 +1,110 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cursos {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px #00aced;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .fotocurso {
+    max-width: 150px;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 2px;
+  }
+  
+  .cursofav {
+    flex: 1;
+  }
+  
+  .nomecurso {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00aced;
+    margin-left: 20px;
+  }
+  
+  .nome-inst {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .desc-curso {
+    font-size: 15px;
+    color: #555;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  
+  .favorite-icon {
+    color: #000000;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+  }
+  
+  .favorite-icon:hover {
+    color: red;
+  }
+
+  .nome-usuario{
+    color: #ffa50c;
+    font-size: 1.3rem;
+  }
+
+
+  .botao-sair {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .botao-sair:hover {
+    background-color: #d32f2f;
+  }
+  .botao-sair i {
+    margin-right: 5px;
+  }
+
+
+  .favorite-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.favorite-button i {
+  margin-right: 5px;
+  color: red;
+}
+
+.favorite-button.favorite {
+  color: red;
+}
+
+.favorite-button.favorite .favorite-text {
+  font-weight: bold;
+}

@@ -1,0 +1,657 @@
+
+.cursosBusca{
+    margin: 2.5%;
+    font-size: 40px;
+    margin-top: 6%;
+
+}
+#tabs-1{
+    background-color: #dfdfdf;
+    margin: 2%;
+    border-radius: 15px;
+    
+}
+
+#tab0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5%;
+    padding-top: 1%;
+    flex-wrap: wrap;
+}
+
+.planColumn {
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    width: 100%;
+}
+
+.planOptionDetailText{
+  text-align: justify;
+}
+h2{
+  text-align: center;
+}
+.btnfav{
+  text-align: center;
+}
+
+
+
+#tab0 > div {
+    background-color: #fff;
+    border-radius: .25em;
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,.15);
+    line-height: 1.6em;
+    padding: 2em;
+    text-align: center;
+}
+
+.btn-orange {
+    background-color: #09356f;
+    border-radius: 2.5em;
+    color: #fff;
+    display: block;
+    margin-top: 1em;
+    padding: .375em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (max-width: 400px) {
+    #tab0 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .planColumn {
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+}
+
+
+/* arrumar */
+body {
+    margin: 0;
+    font-family: Verdana;
+    background-color: #f6f9fa;
+  }
+  
+  nav {
+    height: 90px; /* Ajuste o valor conforme necessário */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171a21;
+    border-style: solid;
+    border-bottom-width: 5px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-color: #fff;
+  }
+  
+  
+  .FixoNoTopo + .principal{
+    padding-top: 60px;
+  }
+  
+  
+  .FixoNoTopo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-left: 25px;
+  }
+  
+  .formatura{
+      float: right;
+    }
+    
+  .menu {
+    list-style: none;
+    display: flex; 
+    margin-right: 105px;
+    position: relative; /* Adicione essa linha */
+    z-index: 2; 
+  
+  
+  }
+  .menu li {
+    margin-left: 20px;
+  
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+  
+  }
+  
+  .menu a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+   
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  
+  /* Pararafos e letras*/
+  h1 {
+   font-family: Candara;
+   font-size: 25px;
+  }
+  .frase{
+    font-family: Candara;
+    color: white;
+    font-size: 50px;
+  }
+  .bemvindo{
+    color: #00aced;
+  }
+  p{
+    font-family: Candara;
+    font-size: 20px;
+    color: black;
+  }
+  .alta{
+    font-family: Candara;
+    font-size: 40px;
+    color: #3366cc;
+    text-align: center;
+  }
+  #sobre-nos {
+    font-family: Candara;
+    font-size: 30px;
+    color: black;
+  }
+  .texto2{
+    font-size: 28px;
+    text-align: justify;
+  }
+  .texto3{
+    font-size: 20px;
+  }
+  
+  .textdestaq{
+    font-size: 32px;
+    color: #3366cc;
+    text-align: center;
+  }
+  
+  
+  header a {
+    text-decoration: none;
+    background-color:#171a21; /* cor do botao inicial */
+    display: inline-block;
+    padding:15px 15px; /* cor do botao inicial */
+    margin:10px 10px;
+    border:1px solid #171a21;
+    border-radius:5px;
+    box-shadow: 0 2px 3px #171a21;
+    color: white; /* cor da letra */
+    }
+  
+  header a:hover {
+    background-color: #171a21; 
+    color: white;
+    box-shadow: 0 2px 3px ;
+    }
+  
+  @keyframes btn2 {
+      0% {
+          transform:rotate(0);
+      }
+      25% {
+          transform:rotate(10deg);
+      }
+      50% {
+          transform:rotate(0);
+      }
+      75% {
+          transform:rotate(-10deg);
+      }
+      100% {
+          transform:rotate(0);
+      }
+  }
+  .btn-2 {
+      transition: .3s; /* Reduzido para 0.3 segundos */
+  }
+  
+  .btn-2:hover {
+      animation-name: btn2;
+      animation-delay: .3s; /* Reduzido para 0.3 segundos */
+      animation-duration: .3s; /* Reduzido para 0.3 segundos */
+      animation-timing-function: linear;
+      animation-iteration-count: 1;
+  }
+  
+  
+  .btn-2{
+    font-size: 20px;
+  }
+  
+  /* Estilos para telas menores */
+  
+  @media only screen and (max-width: 400px) {
+    nav {
+      flex-direction: column;
+    }
+    
+    .menu li {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    
+  }
+  
+  
+  
+  /* Busca  */
+  :root {
+      --primary-color: white;
+      --accent-color:#66c0f4;
+      --text-color: #263238;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    main {
+      display: flex;
+      justify-content: right;
+      margin-bottom: 10px;
+    }
+    
+    input,
+    button {
+      border: none;
+      background: none;
+      outline: 0;
+    }
+    
+    button {
+      cursor: pointer;
+    }
+    
+    .SearchBox-input::placeholder {
+      color: black;
+      opacity: 0.6;
+    }
+    
+    /* Chrome, Opera e Safari */
+    .SearchBox-input::-webkit-input-placeholder {
+      color: black;
+    }
+    
+    /* Firefox 19+ */
+    .SearchBox-input::-moz-placeholder {
+      color: white;
+    }
+    
+    /* IE 10+ e Edge */
+    .SearchBox-input:-ms-input-placeholder {
+      color: white;
+    }
+    
+    /* Firefox 18- */
+    #formGroupExampleInput:-moz-placeholder {
+      color: white;
+    }
+    
+    .SearchBox {
+      --height: 50px;
+      display: flex;
+      margin-right: 4px;
+      margin-top: 10px;
+      border-radius: var(--height);
+      background-color: var(--primary-color);
+      height: var(--height);
+    }
+    
+    .SearchBox.active:hover .SearchBox-input,
+    .SearchBox:focus-within .SearchBox-input {
+      padding-left: 2em;
+      padding-right: 1em;
+      width: 270px;
+    }
+    
+    .SearchBox:hover .SearchBox-input {
+      padding-left: 2em;
+      padding-right: 1em;
+      width: 40px;
+    }
+    
+    .SearchBox-input {
+      width: 0;
+      font-size: 1.2em;
+      color: black;
+      transition: 0.45s;
+    }
+    
+    .SearchBox-button {
+      display: flex;
+      border-radius: 50%;
+      width: var(--height);
+      height: var(--height);
+      background-color: var(--accent-color);
+      transition: 0.3s;
+    }
+    
+    .SearchBox-button:active {
+      transform: scale(0.75);
+    }
+    
+    .SearchBox-icon {
+      margin: auto;
+      color: #fff;
+    }
+    
+  
+    /* Telas menores*/
+    @media screen and (min-width: 400px) {
+      .SearchBox:hover .SearchBox-input {
+        width: 270px;
+      }
+    }
+    
+    @media screen and (max-width: 400px) {
+      main {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .SearchBox {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+    
+      .SearchBox-input {
+        font-size: 1em;
+      }
+    
+      .SearchBox.active:hover .SearchBox-input,
+      .SearchBox:focus-within .SearchBox-input {
+        width: 80%;
+      }
+    
+      .SearchBox:hover .SearchBox-input {
+        width: 80%;
+      }
+    }
+  
+  
+    
+  /* Rodapé*/
+  .site-footer {
+    padding: 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: #282422;
+    text-align: left;
+  }
+  
+  .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+  
+  .site-footer h6 {
+    color: #282422;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+  }
+  
+  .site-footer a {
+    color: #737373;
+  }
+  
+  .site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-links li {
+    display: block;
+  }
+  
+  .footer-links a {
+    color: #737373;
+  }
+  
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  
+  .footer-links.inline li {
+    display: inline-block;
+  }
+  
+  .site-footer .social-icons {
+    text-align: right;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  
+  .social-icons a.instragram img {
+    margin-top: 5px;
+  }
+  
+  .social-icons a.twitter img {
+    margin-top: 5px;
+  }
+  
+  .social-icons a.internet img {
+    margin-top: 5px;
+  }
+  
+  .social-icons a.mensagem img {
+    margin-top: 5px;
+  }
+  
+  .social-icons a.telefone img {
+    margin-top: 5px;
+  }
+  
+  .social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 50px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-right: 9px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+  
+  .social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+  }
+  
+  .social-icons a.instragram:hover {
+    background-color: #e2725b;
+  }
+  
+  .social-icons a.twitter:hover {
+    background-color: #00aced;
+  }
+  
+  .social-icons a.internet:hover {
+    background-color: #989a91;
+  }
+  
+  .social-icons a.mensagem:hover {
+    background-color: red;
+  }
+  
+  .social-icons a.telefone:hover {
+    background-color: green;
+  }
+  
+  @media (max-width: 767px) {
+    .social-icons li.title {
+      display: block;
+      margin-right: 0;
+      font-weight: 600;
+    }
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cursos {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px #00aced;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .fotocurso {
+    max-width: 150px;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 2px;
+  }
+  
+  .cursofav {
+    flex: 1;
+  }
+  
+  .nomecurso {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00aced;
+    margin-left: 20px;
+  }
+  
+  .nome-inst {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .desc-curso {
+    font-size: 15px;
+    color: #555;
+    margin-left: 20px;
+  }
+  
+  .favorite-icon {
+    color: #000000;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+  }
+  
+  .favorite-icon:hover {
+    color: red;
+  }
+
+  .nome-usuario{
+    color: #ffa50c;
+    font-size: 1.3rem;
+  }
+
+
+  .botao-sair {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .botao-sair:hover {
+    background-color: #d32f2f;
+  }
+  .botao-sair i {
+    margin-right: 5px;
+  }
+
+
+  .favorite-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.favorite-button i {
+  margin-right: 5px;
+  color: red;
+}
+
+.favorite-button.favorite {
+  color: red;
+}
+
+.favorite-button.favorite .favorite-text {
+  font-weight: bold;
+}

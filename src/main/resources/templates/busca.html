@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/busca.css}">
+    <link rel="stylesheet" th:href="@{/css/UsuarioFav.css}">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="http:/resources/demos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Cursos</title>
+</head>
+<body>
+    <nav th:replace="~{menu::menu}" >  </nav>
+    <br>
+      <h1 class="cursosBusca"> Cursos</h1>
+          <div  id="tabs-1">
+              <div id="tab0" class="tab-content">
+                  <div th:each="curso:${listaCurso}" class="planColumn">
+                      <form th:action="@{/favoritar}" method="post">
+                          <h2 th:text="${curso.nome}" ></h2>
+                          <div th:text="${curso.descricao}" class="planOptionDetailText"></div>
+                          <div th:text="${'Intituição: '+curso.instituicao}" class="planOptionDetailText"></div>
+                          <div class="planSignup"><button href="#" class="btn-orange" style="text-align: center; margin: auto"><a th:href="${curso.link}" style="text-decoration: none; color: white; font-family: Candara" target="_blank">Inscreva-se</a></button></div>
+                          <div class="btnfav">
+                              <i th:if="${session.usuarioLogado !=  null}" class="fas fa-heart"></i>
+                              <input th:if="${session.usuarioLogado !=  null}" style="cursor: pointer" type="submit" value="Favoritar">
+                              <input id="cursoID" name="cursoID" th:value="${curso.id}" class="favorite-button" style="visibility: hidden" >
+                              <input th:if="${session.usuarioLogado !=  null}" id="usuarioID" name="usuarioID" th:value="${session.usuarioLogado.id}" style="visibility: hidden">
+                          </div>
+                      </form>
+                  </div>
+
+                  </div>
+              </div>
+          </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-image: url(../imagem/wavee.png);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    margin: 0;
+    font-family: Verdana;
+    background-color: #f6f9fa;
+}
+
+.imagem{
+    height: 40%;
+    width: 100%; 
+    padding: -5%;
+    }
+
+.aa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    }
