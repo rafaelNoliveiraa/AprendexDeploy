@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="943894bb-8af7-42bf-914e-4f2eee3b6805" name="Changes" comment="Deploy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/DadosPessoais.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/DadosPessoais.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/UsuarioFav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/UsuarioFav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cadastro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cadastroCurso.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cadastroCurso.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sobre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telacurso.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telacurso.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +115,7 @@
       <workItem from="1685298655633" duration="23000" />
       <workItem from="1685308916787" duration="83000" />
       <workItem from="1685309754738" duration="771000" />
-      <workItem from="1685310598905" duration="2482000" />
+      <workItem from="1685310598905" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de services do usuario">
       <created>1684547659459</created>
@@ -265,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685311804219</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Deploy">
+      <created>1685313358889</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685313358889</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Deploy">
+      <created>1685313552700</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685313552700</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
