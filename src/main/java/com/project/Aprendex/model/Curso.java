@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Data
-@Document()
+@Document(collection = "Cursos")
 public class Curso{
 
     @Id
